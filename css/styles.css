@@ -73,7 +73,7 @@ a {
   color: #404bbf;
 }
 
-.main-h1 {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -96,7 +96,8 @@ a {
   text-transform: capitalize;
 }
 
-.heading-h3 {
+.feature-heading,
+.team-portfolio-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
