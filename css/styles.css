@@ -96,8 +96,7 @@ a {
   text-transform: capitalize;
 }
 
-.feature-heading,
-.team-portfolio-heading {
+.section-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
