@@ -64,29 +64,44 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-}
-
-.button-main:hover {
-  background-color: #404bbf;
   cursor: pointer;
 }
 
-h1 {
+.button-main:hover,
+.button-main:focus {
+  background-color: #404bbf;
+  color: #404bbf;
+}
+
+.main-h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 
 .hero-section {
   background-color: #2e2f42;
 }
-.features-h3 {
+
+.heading-h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .features-paragraph {
@@ -100,24 +115,11 @@ h1 {
   background-color: #f4f4fd;
 }
 
-.team-h2,
-.portfolio-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
+.team-item {
+  background-color: #fff;
 }
 
-.team-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.team-profession,
-.portfolio-paragraph {
+.paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -130,4 +132,6 @@ h1 {
 
 .footer-paragraph {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
